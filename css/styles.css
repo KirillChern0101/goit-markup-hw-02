@@ -9,6 +9,7 @@ body {
 	--accent-text-background-color: #ffffff;
 	--backgroun-color: #f4f4fd;
 	--footer-text-color: #e7e9fc;
+	--button-portfolio-hover-color: #404bbf;
 }
 /*Colors*/
 /*To reset properties*/
@@ -50,7 +51,8 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--accent-text-color);
 }
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -64,7 +66,8 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--color-of-paraghraphs);
 }
-.header-link-two:hover {
+.header-link-two:hover,
+.header-link-two:focus {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -94,7 +97,8 @@ body {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -177,4 +181,40 @@ body {
 	line-height: 24px;
 	letter-spacing: 0.02em;
 	color: var(--footer-text-color);
+}
+/* footer-Style */
+
+/* Portfolio HTML */
+/* Hero-Portfolio-Style */
+.hero-portf-button {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--accent-text-color-two);
+	background-color: var(--backgroun-color);
+	cursor: pointer;
+	border: 1px solid var(--footer-text-color);
+	border-radius: 4px;
+}
+.hero-portf-button:hover,
+.hero-portf-button:focus {
+	color: var(--accent-text-background-color);
+	background-color: var(--button-portfolio-hover-color);
+}
+/* Hero-Portfolio-Style */
+/* Service-Portfolio-Style */
+.service-portf-subject {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--accent-text-color);
+}
+.service-portf-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
 }
