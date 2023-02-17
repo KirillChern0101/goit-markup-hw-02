@@ -1,9 +1,3 @@
-body {
-	font-family: "Roboto", sans-serif;
-	color: var(--color-of-paraghraphs);
-	background-color: var(--accent-text-background-color);
-}
-
 /*Colors*/
 :root {
 	--accent-text-color: #2e2f42;
@@ -15,7 +9,11 @@ body {
 	--button-portfolio-hover-color: #404bbf;
 }
 /*Colors*/
-
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--color-of-paraghraphs);
+	background-color: var(--accent-text-background-color);
+}
 /*To reset properties*/
 .list {
 	list-style: none;
@@ -40,13 +38,6 @@ body {
 	color: var(--accent-text-color);
 }
 .part-logo {
-	font-family: "Raleway";
-	font-style: normal;
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.33;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
 	color: var(--accent-text-color-two);
 }
 .header-link {
@@ -58,13 +49,10 @@ body {
 }
 .header-link:hover,
 .header-link:focus {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
 	color: var(--accent-text-color-two);
 }
 .header-link-two {
+	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -73,12 +61,12 @@ body {
 }
 .header-link-two:hover,
 .header-link-two:focus {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
 	color: var(--accent-text-color-two);
 }
+.header-item-two .header-link-two {
+	font-style: normal;
+}
+
 /* Header-Style */
 
 /* Hero-Section-Style */
@@ -93,6 +81,7 @@ body {
 	color: var(--accent-text-background-color);
 }
 .hero-button {
+	font-family: "Roboto";
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -106,16 +95,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	display: flex;
-	letter-spacing: 0.04em;
-	color: var(--accent-text-background-color);
 	background: var(--button-portfolio-hover-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-	cursor: pointer;
 }
 /* Hero-Section-Style */
 
@@ -199,6 +179,7 @@ body {
 /* Portfolio HTML */
 /* Hero-Portfolio-Style */
 .hero-portf-button {
+	font-family: "Roboto";
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -208,13 +189,11 @@ body {
 	cursor: pointer;
 	border: 1px solid var(--footer-text-color);
 	border-radius: 4px;
-	cursor: pointer;
 }
 .hero-portf-button:hover,
 .hero-portf-button:focus {
 	color: var(--accent-text-background-color);
 	background-color: var(--button-portfolio-hover-color);
-	cursor: pointer;
 }
 /* Hero-Portfolio-Style */
 
