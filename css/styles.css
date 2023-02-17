@@ -1,5 +1,6 @@
 body {
 	font-family: "Roboto", sans-serif;
+	color: var(--backgroun-color);
 }
 /*Colors*/
 :root {
@@ -96,6 +97,7 @@ body {
 	background: var(--accent-text-color-two);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -105,9 +107,10 @@ body {
 	display: flex;
 	letter-spacing: 0.04em;
 	color: var(--accent-text-background-color);
-	background: var(--accent-text-color-two);
+	background: var(--button-portfolio-hover-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	cursor: pointer;
 }
 /* Hero-Section-Style */
 /* About-Section-Style */
@@ -187,7 +190,7 @@ body {
 /* Portfolio HTML */
 /* Hero-Portfolio-Style */
 .hero-portf-button {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
@@ -196,11 +199,13 @@ body {
 	cursor: pointer;
 	border: 1px solid var(--footer-text-color);
 	border-radius: 4px;
+	cursor: pointer;
 }
 .hero-portf-button:hover,
 .hero-portf-button:focus {
 	color: var(--accent-text-background-color);
 	background-color: var(--button-portfolio-hover-color);
+	cursor: pointer;
 }
 /* Hero-Portfolio-Style */
 /* Service-Portfolio-Style */
