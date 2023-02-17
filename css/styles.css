@@ -1,7 +1,9 @@
 body {
 	font-family: "Roboto", sans-serif;
-	color: var(--backgroun-color);
+	color: var(--color-of-paraghraphs);
+	background-color: var(--accent-text-background-color);
 }
+
 /*Colors*/
 :root {
 	--accent-text-color: #2e2f42;
@@ -13,6 +15,7 @@ body {
 	--button-portfolio-hover-color: #404bbf;
 }
 /*Colors*/
+
 /*To reset properties*/
 .list {
 	list-style: none;
@@ -21,6 +24,7 @@ body {
 	text-decoration: none;
 }
 /*To reset properties*/
+
 /* Header-Style */
 .header {
 	background-color: var(--accent-text-background-color);
@@ -76,6 +80,7 @@ body {
 	color: var(--accent-text-color-two);
 }
 /* Header-Style */
+
 /* Hero-Section-Style */
 .hero-section {
 	background-color: var(--accent-text-color);
@@ -113,6 +118,7 @@ body {
 	cursor: pointer;
 }
 /* Hero-Section-Style */
+
 /* About-Section-Style */
 .about-subject {
 	font-weight: 500;
@@ -129,6 +135,7 @@ body {
 	color: var(--color-of-paraghraphs);
 }
 /* About-Section-Style */
+
 /* WhatTheyDo-Section-Style */
 .what-they-do-title {
 	font-family: "Roboto";
@@ -139,6 +146,7 @@ body {
 	color: var(--accent-text-color);
 }
 /* WhatTheyDo-Section-Style */
+
 /* OurTeam-Section-Style */
 .our-team-section {
 	background-color: var(--backgroun-color);
@@ -165,6 +173,7 @@ body {
 	color: var(--color-of-paraghraphs);
 }
 /* OurTeam-Section-Style */
+
 /* footer-Style */
 .footer {
 	background-color: var(--accent-text-color);
@@ -208,6 +217,7 @@ body {
 	cursor: pointer;
 }
 /* Hero-Portfolio-Style */
+
 /* Service-Portfolio-Style */
 .service-portf-subject {
 	font-weight: 500;
@@ -223,3 +233,5 @@ body {
 	letter-spacing: 0.02em;
 	color: #434455;
 }
+/* Service-Portfolio-Style */
+/* Portfolio HTML */
